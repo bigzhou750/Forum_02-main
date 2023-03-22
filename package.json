@@ -1,0 +1,30 @@
+{
+  "name": "forum",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.0.10",
+    "@mdi/js": "^7.1.96",
+    "@wangeditor/editor": "^5.1.23",
+    "@wangeditor/editor-for-vue": "next",
+    "appwrite": "^10.1.0",
+    "element-plus": "^2.2.32",
+    "pinia": "^2.0.21",
+    "sass": "^1.58.3",
+    "vue": "^3.2.45",
+    "vue-router": "^4.1.6",
+    "vuetify": "^3.1.7"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
+    "unplugin-auto-import": "^0.14.3",
+    "unplugin-vue-components": "^0.24.0",
+    "vite": "^4.1.0"
+  }
+}
